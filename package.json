@@ -1,0 +1,40 @@
+{
+  "name": "loukatech-website",
+  "version": "2.0.0",
+  "description": "Site public LoukaTech et back-office admin.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs site",
+    "dev:site": "node scripts/dev-server.mjs site",
+    "dev:legacy": "node scripts/dev-server.mjs legacy/public-root",
+    "dev:css": "cd site && tailwindcss -i ./src/input.css -o ./src/css/tailwind.css --watch",
+    "build:css": "cd site && tailwindcss -i ./src/input.css -o ./src/css/tailwind.css --minify",
+    "check:links": "node scripts/check-static-links.mjs site",
+    "admin:dev": "npm --prefix admin run dev",
+    "admin:build": "npm --prefix admin run build",
+    "admin:test:preview": "npm --prefix admin run test:preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uideck/play-tailwind.git"
+  },
+  "keywords": [
+    "loukatech",
+    "website",
+    "tailwind",
+    "admin"
+  ],
+  "author": "LoukaTech",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.9"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "postcss": "^8.5.3"
+  }
+}

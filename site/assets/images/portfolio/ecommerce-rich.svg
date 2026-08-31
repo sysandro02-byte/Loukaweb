@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Site e-commerce</title><desc id="desc">Interface e-commerce avec catalogue, panier, paiement et commandes.</desc>
+  <rect width="1200" height="760" fill="#f8fbff"/>
+  <rect x="90" y="84" width="1020" height="580" rx="42" fill="#fff" stroke="#d9e3ee"/>
+  <rect x="144" y="132" width="912" height="74" rx="24" fill="#2f4f70"/>
+  <rect x="190" y="266" width="196" height="210" rx="28" fill="#e8f1f9"/>
+  <path d="M238 318h96l-18 74h-60z" fill="#7b7ab0"/>
+  <circle cx="264" cy="424" r="16" fill="#2f4f70"/><circle cx="320" cy="424" r="16" fill="#2f4f70"/>
+  <rect x="456" y="266" width="196" height="210" rx="28" fill="#e8f1f9"/>
+  <path d="M504 318h96l-18 74h-60z" fill="#91c5d4"/>
+  <circle cx="530" cy="424" r="16" fill="#2f4f70"/><circle cx="586" cy="424" r="16" fill="#2f4f70"/>
+  <rect x="722" y="266" width="196" height="210" rx="28" fill="#e8f1f9"/>
+  <path d="M770 318h96l-18 74h-60z" fill="#7b7ab0"/>
+  <circle cx="796" cy="424" r="16" fill="#2f4f70"/><circle cx="852" cy="424" r="16" fill="#2f4f70"/>
+  <rect x="190" y="540" width="728" height="34" rx="17" fill="#91c5d4"/>
+  <rect x="950" y="266" width="106" height="308" rx="24" fill="#eef4fb"/>
+</svg>

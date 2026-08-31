@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Solutions IA LoukaTech</title>
+  <desc id="desc">Interface visuelle representant des agents IA, documents, automatisation et analyse de donnees.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef7fb"/>
+      <stop offset=".52" stop-color="#dcecf7"/>
+      <stop offset="1" stop-color="#f8fbff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2f4f70"/>
+      <stop offset="1" stop-color="#8b86b8"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#91c5d4"/>
+      <stop offset="1" stop-color="#5f7fa8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#0d1f54" flood-opacity=".18"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1280" cy="130" r="280" fill="#91c5d4" opacity=".18"/>
+  <circle cx="240" cy="760" r="330" fill="#8b86b8" opacity=".13"/>
+  <path d="M0 700 C240 600 440 780 690 660 C940 540 1140 610 1600 500 L1600 900 L0 900Z" fill="#fff" opacity=".42"/>
+
+  <g filter="url(#shadow)">
+    <rect x="190" y="260" width="560" height="360" rx="34" fill="#07102f"/>
+    <rect x="230" y="310" width="480" height="250" rx="20" fill="#13234f"/>
+    <path d="M260 505 C330 440 390 475 455 430 C525 383 585 430 675 365" fill="none" stroke="#91c5d4" stroke-width="14" stroke-linecap="round" opacity=".9"/>
+    <path d="M260 520 C330 485 395 520 460 490 C535 456 595 500 675 445" fill="none" stroke="#8b86b8" stroke-width="10" stroke-linecap="round" opacity=".86"/>
+    <rect x="250" y="336" width="110" height="18" rx="9" fill="#91c5d4" opacity=".7"/>
+    <rect x="250" y="370" width="210" height="12" rx="6" fill="#fff" opacity=".18"/>
+    <rect x="500" y="336" width="170" height="18" rx="9" fill="#fff" opacity=".18"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="812" cy="410" r="110" fill="none" stroke="#5f7fa8" stroke-width="3" opacity=".75"/>
+    <circle cx="812" cy="410" r="70" fill="none" stroke="#91c5d4" stroke-width="3" opacity=".8"/>
+    <circle cx="812" cy="410" r="34" fill="url(#cyan)" opacity=".9"/>
+    <g stroke="#5f7fa8" stroke-width="3" opacity=".7">
+      <path d="M742 410h140M812 340v140M762 360l100 100M862 360l-100 100"/>
+    </g>
+    <g fill="#2f4f70">
+      <circle cx="742" cy="410" r="8"/><circle cx="882" cy="410" r="8"/>
+      <circle cx="812" cy="340" r="8"/><circle cx="812" cy="480" r="8"/>
+      <circle cx="762" cy="360" r="8"/><circle cx="862" cy="460" r="8"/>
+      <circle cx="862" cy="360" r="8"/><circle cx="762" cy="460" r="8"/>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="990" y="205" width="330" height="210" rx="28" fill="#ffffff" opacity=".9"/>
+    <rect x="1030" y="245" width="108" height="130" rx="14" fill="#edf4fb"/>
+    <rect x="1175" y="245" width="108" height="130" rx="14" fill="#edf4fb"/>
+    <path d="M1053 285h60M1053 314h52M1053 343h68M1198 285h60M1198 314h48M1198 343h64" stroke="#5f7fa8" stroke-width="9" stroke-linecap="round" opacity=".75"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1015" y="515" width="390" height="170" rx="28" fill="#07102f" opacity=".88"/>
+    <rect x="1050" y="550" width="270" height="22" rx="11" fill="#91c5d4" opacity=".8"/>
+    <rect x="1050" y="592" width="220" height="18" rx="9" fill="#fff" opacity=".22"/>
+    <rect x="1050" y="626" width="285" height="18" rx="9" fill="#fff" opacity=".18"/>
+    <circle cx="1360" cy="604" r="30" fill="url(#cyan)"/>
+  </g>
+
+  <g stroke="#5f7fa8" stroke-width="5" fill="none" opacity=".62">
+    <path d="M748 410 C680 370 640 370 590 390"/>
+    <path d="M902 405 C960 360 1000 330 1030 310"/>
+    <path d="M900 470 C980 520 1040 560 1080 590"/>
+    <path d="M810 520 C780 610 705 675 610 710"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="490" y="650" width="280" height="120" rx="26" fill="#ffffff" opacity=".92"/>
+    <circle cx="542" cy="710" r="22" fill="url(#cyan)"/>
+    <circle cx="622" cy="710" r="22" fill="url(#cyan)" opacity=".86"/>
+    <circle cx="702" cy="710" r="22" fill="url(#cyan)" opacity=".7"/>
+    <path d="M565 710h34M645 710h34" stroke="#5f7fa8" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

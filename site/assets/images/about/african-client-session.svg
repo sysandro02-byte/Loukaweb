@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Session client africaine</title>
+  <desc id="desc">Illustration d'une consultante africaine en visioconference devant une interface web.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#eef6fb"/><stop offset="1" stop-color="#f8fbff"/></linearGradient></defs>
+  <rect width="900" height="620" rx="42" fill="url(#bg)"/>
+  <rect x="76" y="82" width="488" height="354" rx="28" fill="#fff" stroke="#d9e3ee"/>
+  <rect x="120" y="128" width="260" height="24" rx="12" fill="#2f4f70"/>
+  <rect x="120" y="188" width="360" height="20" rx="10" fill="#d8e3f1"/>
+  <rect x="120" y="232" width="310" height="20" rx="10" fill="#d8e3f1"/>
+  <rect x="120" y="290" width="122" height="70" rx="18" fill="#91c5d4"/>
+  <rect x="272" y="290" width="122" height="70" rx="18" fill="#7b7ab0"/>
+  <rect x="424" y="290" width="78" height="70" rx="18" fill="#d8e3f1"/>
+  <g transform="translate(560 130)">
+    <circle cx="128" cy="94" r="78" fill="#251915"/>
+    <circle cx="128" cy="96" r="48" fill="#8b5438"/>
+    <path d="M60 340c12-112 52-172 74-172 38 0 76 62 90 172z" fill="#2f4f70"/>
+    <rect x="6" y="292" width="252" height="54" rx="27" fill="#91c5d4"/>
+  </g>
+</svg>

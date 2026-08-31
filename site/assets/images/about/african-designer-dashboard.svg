@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Designer africain devant un tableau de bord</title>
+  <desc id="desc">Illustration d'un professionnel africain analysant un tableau de bord numerique.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#dceaf5"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#0b1438"/><stop offset="1" stop-color="#2f4f70"/></linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="42" fill="url(#bg)"/>
+  <rect x="74" y="74" width="520" height="350" rx="30" fill="url(#panel)"/>
+  <rect x="112" y="120" width="170" height="22" rx="11" fill="#91c5d4"/>
+  <rect x="112" y="180" width="104" height="138" rx="18" fill="#7b7ab0"/>
+  <rect x="244" y="180" width="284" height="26" rx="13" fill="#dbe7ff"/>
+  <rect x="244" y="232" width="210" height="18" rx="9" fill="#91c5d4"/>
+  <polyline points="244 330 300 286 356 310 426 250 520 290" fill="none" stroke="#91c5d4" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(560 250)">
+    <circle cx="112" cy="82" r="70" fill="#2a1c17"/>
+    <circle cx="112" cy="82" r="46" fill="#7c4a30"/>
+    <path d="M56 230c10-78 38-122 61-122 32 0 62 46 73 122z" fill="#7b7ab0"/>
+    <rect x="0" y="210" width="256" height="42" rx="21" fill="#2f4f70"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Equipe africaine LoukaTech en atelier produit</title>
+  <desc id="desc">Illustration d'une equipe africaine travaillant sur un tableau de planification et des interfaces digitales.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#e7eff8"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1">
+      <stop offset="0" stop-color="#2f4f70"/>
+      <stop offset="1" stop-color="#7b7ab0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="820" fill="url(#bg)"/>
+  <circle cx="1010" cy="120" r="170" fill="#dbe8f5"/>
+  <circle cx="160" cy="690" r="210" fill="#edf4fb"/>
+  <rect x="98" y="92" width="1004" height="612" rx="44" fill="#fff" stroke="#d9e3ee"/>
+  <rect x="168" y="142" width="534" height="322" rx="28" fill="#f2f6fb"/>
+  <rect x="202" y="178" width="142" height="54" rx="16" fill="#8fb8d0"/>
+  <rect x="370" y="178" width="250" height="18" rx="9" fill="#2f4f70"/>
+  <rect x="370" y="216" width="186" height="14" rx="7" fill="#91c5d4"/>
+  <rect x="202" y="268" width="424" height="20" rx="10" fill="#d8e3f1"/>
+  <rect x="202" y="314" width="350" height="20" rx="10" fill="#d8e3f1"/>
+  <rect x="202" y="360" width="286" height="20" rx="10" fill="#d8e3f1"/>
+  <rect x="744" y="142" width="286" height="350" rx="32" fill="url(#screen)"/>
+  <rect x="778" y="186" width="218" height="42" rx="14" fill="#f7fbff" opacity=".92"/>
+  <rect x="778" y="254" width="94" height="168" rx="18" fill="#91c5d4"/>
+  <rect x="894" y="254" width="102" height="168" rx="18" fill="#fff" opacity=".86"/>
+  <rect x="200" y="536" width="268" height="122" rx="24" fill="#eef5fb"/>
+  <rect x="232" y="566" width="108" height="18" rx="9" fill="#2f4f70"/>
+  <rect x="232" y="606" width="178" height="16" rx="8" fill="#91c5d4"/>
+  <rect x="520" y="536" width="260" height="122" rx="24" fill="#eef5fb"/>
+  <rect x="552" y="566" width="126" height="18" rx="9" fill="#2f4f70"/>
+  <rect x="552" y="606" width="180" height="16" rx="8" fill="#91c5d4"/>
+  <g transform="translate(704 518)">
+    <circle cx="78" cy="55" r="45" fill="#513827"/>
+    <path d="M34 152c8-50 25-78 48-78s41 28 50 78z" fill="#2f4f70"/>
+    <circle cx="78" cy="52" r="29" fill="#7c4a30"/>
+    <path d="M48 42c11-35 55-34 63 0-22-8-41-8-63 0z" fill="#24170f"/>
+  </g>
+  <g transform="translate(824 502)">
+    <circle cx="74" cy="58" r="48" fill="#1f1714"/>
+    <path d="M30 160c8-52 26-82 49-82 25 0 44 30 52 82z" fill="#7b7ab0"/>
+    <circle cx="78" cy="58" r="30" fill="#8b5438"/>
+    <path d="M45 54c7-40 60-44 70-3-27-10-48-10-70 3z" fill="#16100e"/>
+  </g>
+</svg>

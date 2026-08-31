@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: loukatech-api
+    runtime: node
+    rootDir: admin
+    buildCommand: npm ci && npm run build
+    startCommand: npm run preview
+    healthCheckPath: /api/health
+    disk:
+      name: loukatech-api-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DATA_FILE
+        value: /var/data/db.json
+      - key: NODE_VERSION
+        value: 22
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ALLOWED_ORIGINS
+        value: https://site-rosy-pi-92.vercel.app,https://loukatech-admin.vercel.app
+      - key: AI_API_URL
+        value: https://api.openai.com/v1/chat/completions
+      - key: AI_MODEL
+        value: gpt-4o-mini

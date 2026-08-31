@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Logiciel de gestion scolaire</title><desc id="desc">Tableau de bord scolaire avec eleves, classes, notes et finances.</desc>
+  <rect width="1200" height="760" fill="#f7fbff"/>
+  <rect x="92" y="82" width="1016" height="580" rx="42" fill="#fff" stroke="#d9e3ee"/>
+  <rect x="132" y="122" width="198" height="500" rx="30" fill="#0b1438"/>
+  <rect x="172" y="174" width="94" height="18" rx="9" fill="#91c5d4"/>
+  <rect x="172" y="238" width="120" height="14" rx="7" fill="#d8e3f1"/>
+  <rect x="172" y="288" width="92" height="14" rx="7" fill="#d8e3f1"/>
+  <rect x="172" y="338" width="132" height="14" rx="7" fill="#d8e3f1"/>
+  <rect x="386" y="124" width="616" height="74" rx="24" fill="#2f4f70"/>
+  <rect x="386" y="242" width="172" height="138" rx="26" fill="#e8f1f9"/>
+  <rect x="590" y="242" width="172" height="138" rx="26" fill="#e8f1f9"/>
+  <rect x="794" y="242" width="208" height="138" rx="26" fill="#e8f1f9"/>
+  <rect x="386" y="430" width="616" height="36" rx="18" fill="#91c5d4"/>
+  <rect x="386" y="506" width="432" height="26" rx="13" fill="#7b7ab0"/>
+  <circle cx="472" cy="310" r="34" fill="#2f4f70"/>
+  <circle cx="676" cy="310" r="34" fill="#91c5d4"/>
+  <circle cx="890" cy="310" r="34" fill="#7b7ab0"/>
+</svg>

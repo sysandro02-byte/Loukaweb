@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Plateforme Dr Luna</title>
+  <desc id="desc">Interface de telemedecine Dr Luna avec medecin africain, rendez-vous et suivi patient.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#e5f1f6"/></linearGradient><linearGradient id="blue" x1="0" x2="1"><stop stop-color="#2f4f70"/><stop offset="1" stop-color="#91c5d4"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect x="86" y="76" width="1028" height="580" rx="42" fill="#fff" stroke="#d8e3f1"/>
+  <rect x="128" y="124" width="184" height="484" rx="30" fill="#0b1438"/>
+  <rect x="166" y="174" width="92" height="18" rx="9" fill="#91c5d4"/>
+  <rect x="166" y="232" width="112" height="14" rx="7" fill="#d8e3f1"/>
+  <rect x="166" y="278" width="98" height="14" rx="7" fill="#d8e3f1"/>
+  <rect x="166" y="324" width="124" height="14" rx="7" fill="#d8e3f1"/>
+  <rect x="360" y="124" width="430" height="190" rx="30" fill="#eef6fb"/>
+  <rect x="398" y="164" width="202" height="24" rx="12" fill="#2f4f70"/>
+  <rect x="398" y="216" width="314" height="18" rx="9" fill="#91c5d4"/>
+  <rect x="398" y="256" width="220" height="18" rx="9" fill="#d8e3f1"/>
+  <rect x="360" y="350" width="214" height="258" rx="30" fill="#eef6fb"/>
+  <rect x="608" y="350" width="182" height="258" rx="30" fill="#eef6fb"/>
+  <polyline points="394 532 438 486 486 512 542 438" fill="none" stroke="#91c5d4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(812 146)">
+    <rect x="0" y="0" width="236" height="462" rx="34" fill="url(#blue)"/>
+    <circle cx="118" cy="126" r="72" fill="#24170f"/>
+    <circle cx="118" cy="130" r="46" fill="#7c4a30"/>
+    <path d="M58 330c10-86 40-136 66-136s58 50 70 136z" fill="#fff"/>
+    <path d="M70 328h96l18 60H48z" fill="#dbe7ff"/>
+    <rect x="42" y="374" width="152" height="26" rx="13" fill="#fff"/>
+  </g>
+</svg>

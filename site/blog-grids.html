@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Blog | LoukaTech</title><meta name="description" content="Conseils LoukaTech sur le web, les logiciels, l'IA, l'automatisation, le mobile et la transformation digitale." /><link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/svg+xml" /><link rel="stylesheet" href="styles.css" /><script defer src="config.js"></script><script defer src="script.js"></script></head>
+  <body>
+    <header class="site-header" id="top"><div class="container nav"><a href="index.html" class="brand"><span class="brand-mark">LT</span><span><strong>LoukaTech</strong><small>Innover. Développer. Transformer.</small></span></a><button class="menu-toggle" id="menuToggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav-links" id="navLinks"><a href="index.html">Accueil</a><a href="about.html">Entreprise</a><a href="services.html">Services</a><a href="solutions.html">Solutions</a><a href="realisations.html">Réalisations</a><a href="blog-grids.html">Blog</a><a href="contact.html">Contact</a><a href="devis.html" class="nav-cta">Demander un devis</a></nav></div></header>
+    <main>
+      <section class="page-hero"><div class="container page-hero-grid"><div class="reveal"><div class="breadcrumb"><a href="index.html">Accueil</a><span>/</span><span>Blog</span></div><h1>Analyses, idées et conseils pour mieux construire vos produits digitaux.</h1><p>Nos articles aident les dirigeants, équipes produit et entrepreneurs à prendre de meilleures décisions numériques.</p><div class="hero-actions"><a class="btn btn-primary" href="actualites.html">Voir les actualités</a><a class="btn btn-ghost" href="devis.html">Demander un avis</a></div></div><div class="hero-mini-card reveal"><img src="assets/images/loukatech/web-developer-workstation.png" alt="équipe qui prépare une stratégie digitale" /></div></div></section>
+      <section class="section soft-bg"><div class="container blog-layout">
+        <div class="blog-list">
+          <article class="blog-card reveal"><img src="assets/images/loukatech/developer-team-collaboration.png" alt="Automatisation IA en entreprise" /><div><p class="eyebrow dark">IA & Automatisation</p><h3>Comment l'IA peut automatiser les tâches répétitives en entreprise</h3><p>Une approche concrète pour identifier les bons processus, mesurer le gain et éviter les intégrations inutiles.</p><button type="button" data-blog-article="ia-automatisation">Lire l'article</button></div></article>
+          <article class="blog-card reveal"><img src="assets/images/loukatech/web-developer-workstation.png" alt="Développement logiciel métier" /><div><p class="eyebrow dark">Logiciel métier</p><h3>Pourquoi un logiciel métier bien conéu change la productivité</h3><p>Architecture, UX et maintenance : les points qui font la différence entre un outil adopté et un outil abandonné.</p><button type="button" data-blog-article="logiciel-metier">Lire l'article</button></div></article>
+          <article class="blog-card reveal"><img src="assets/images/loukatech/crm-dashboard-operator.png" alt="Présence digitale" /><div><p class="eyebrow dark">Web & Branding</p><h3>Construire une presence digitale crédible dés le depart</h3><p>Site rapide, message clair, image cohérente et parcours de contact efficace pour convertir les visiteurs.</p><button type="button" data-blog-article="presence-digitale">Lire l'article</button></div></article>
+          <article class="blog-card reveal"><img src="assets/images/loukatech/product-workshop-team.png" alt="Application mobile" /><div><p class="eyebrow dark">Mobile</p><h3>Les criteres d'une application mobile vraiment utile</h3><p>Fonctionnalités, performance, sécurité et analytics : les bases a valider avant de développer.</p><button type="button" data-blog-article="application-mobile">Lire l'article</button></div></article>
+        </div>
+        <aside class="sidebar reveal">
+          <div class="sidebar-box"><h3>Catégories</h3><a href="services.html">Développement logiciel</a><a href="pole-intelligence-artificielle.html">Intelligence artificielle</a><a href="services.html">Applications mobiles</a><a href="services.html">UX/UI & Branding</a></div>
+          <div class="sidebar-box"><h3>Actualités LoukaTech</h3><p>Suivez les avancées de la startup : produits, IA, mobile, automatisation et projets terrain.</p><a class="btn btn-primary" href="actualites.html">Ouvrir les actualités</a></div><div class="sidebar-box"><h3>Sujets populaires</h3><div class="tag-list"><span>IA</span><span>Automatisation</span><span>SaaS</span><span>Mobile</span><span>CRM</span><span>Design</span></div></div>
+          <div class="sidebar-box"><h3>Besoin d'un avis ?</h3><p>Envoyez votre idée et recevez une recommandation claire sur la meilleure approche.</p><a class="btn btn-primary" href="devis.html">Demander un devis</a></div>
+        </aside>
+      </div></section>
+    </main>
+    <div class="solution-modal blog-article-modal" id="blogArticleModal" aria-hidden="true">
+      <div class="solution-modal__overlay" data-blog-article-close></div>
+      <article class="solution-modal__panel blog-article-modal__panel" role="dialog" aria-modal="true" aria-labelledby="blogArticleModalTitle">
+        <button class="solution-modal__close" type="button" aria-label="Fermer l'article" data-blog-article-close>&times;</button>
+        <span class="solution-modal__eyebrow" id="blogArticleModalCategory"></span>
+        <h3 id="blogArticleModalTitle"></h3>
+        <p id="blogArticleModalIntro"></p>
+        <div class="blog-article-modal__content">
+          <h4>Points cles</h4>
+          <ul id="blogArticleModalPoints"></ul>
+          <h4>Comment l'appliquer</h4>
+          <p id="blogArticleModalAction"></p>
+        </div>
+        <a class="btn btn-primary" id="blogArticleModalLink" href="devis.html">Parler de mon projet</a>
+      </article>
+    </div>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html#top" class="brand footer-brand">
+            <span class="brand-mark" aria-hidden="true">LT</span>
+            <span>
+              <strong>LoukaTech</strong>
+              <small>Innover. Développer. Transformer.</small>
+            </span>
+          </a>
+          <p>Nous concevons des solutions numériques innovantes pour accélérer la croissance des entreprises.</p>
+          <div class="socials" aria-label="Réseaux sociaux">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Twitter">x</a>
+            <a href="#" aria-label="Instagram">ig</a>
+          </div>
+        </div>
+        <div>
+          <h3>Liens rapides</h3>
+          <a href="index.html">Accueil</a>
+          <a href="about.html">Entreprise</a>
+          <a href="services.html">Services</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="realisations.html">Réalisations</a>
+        </div>
+        <div>
+          <h3>Nos services</h3>
+          <a href="service-developpement-logiciel.html">Développement logiciel</a>
+          <a href="service-developpement-mobile.html">Applications mobiles</a>
+          <a href="service-integration-ia.html">Intégration IA</a>
+          <a href="service-agents-ia.html">Agents IA</a>
+          <a href="service-automatisation.html">Maintenance</a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>+243 900 000 000</p>
+          <p>contact@loukatech.com</p>
+          <p>Kinshasa, République démocratique du Congo</p>
+          <form class="newsletter" aria-label="Newsletter">
+            <input type="email" placeholder="Votre email" aria-label="Votre email" />
+            <button type="submit">S'abonner</button>
+          </form>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>&copy; 2026 LoukaTech. Tous droits réservés.</span>
+        <span>Mentions légales &middot; Politique de confidentialité &middot; CGV</span>
+      </div>
+    </footer>
+  </body>
+</html>
+
+

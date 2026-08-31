@@ -1,0 +1,16 @@
+.DS_Store
+node_modules
+site/node_modules
+admin/node_modules
+admin/.env
+admin/.env.local
+admin/dist
+admin/server/uploads
+admin/server/data/db.json
+admin/tsconfig.tsbuildinfo
+admin/NUL.css
+dist
+.env
+.env.local
+*.log
+_archive/imports/template-git-metadata

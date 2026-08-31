@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | LoukaTech</title>
+    <meta name="description" content="Services LoukaTech : logiciel métier, web, mobile, UX/UI, branding, IA, agents IA, automatisation, cloud et maintenance." />
+    <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="services.css" />
+    <script defer src="config.js"></script><script defer src="script.js"></script>
+  </head>
+  <body class="page-services">
+    <header class="site-header" id="top"><div class="container nav"><a href="index.html" class="brand"><span class="brand-mark">LT</span><span><strong>LoukaTech</strong><small>Innover. Développer. Transformer.</small></span></a><button class="menu-toggle" id="menuToggle" type="button" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button><nav class="nav-links" id="navLinks"><a href="index.html">Accueil</a><a href="about.html">Entreprise</a><a href="services.html">Services</a><a href="solutions.html">Solutions</a><a href="realisations.html">Réalisations</a><a href="blog-grids.html">Blog</a><a href="contact.html">Contact</a><a href="devis.html" class="nav-cta">Demander un devis</a></nav></div></header>
+    <main>
+      <section class="page-hero"><div class="container page-hero-grid"><div class="reveal"><div class="breadcrumb"><a href="index.html">Accueil</a><span>/</span><span>Services</span></div><h1>Des expertises digitales pour concevoir, lancer et faire évoluer vos outils.</h1><p>Logiciels métiers, applications mobiles, plateformes web, IA et automatisation : LoukaTech structure chaque service autour de vos objectifs terrain.</p></div><div class="hero-mini-card reveal"><img src="assets/images/loukatech/africa-dashboard-meeting.png" alt="Interface digitale et tableau de bord" /></div></div></section>
+      <section class="section"><div class="container"><div class="section-title reveal"><span>Expertises</span><h2>Nos services</h2><p>Choisissez une expertise ou combinéz plusieurs poles pour un projet complet.</p></div><div class="content-grid">
+        <a class="detail-card service-detail-card reveal" id="logiciel" href="service-developpement-logiciel.html"><span class="service-icon" data-icon="software"></span><h3>Développement logiciel</h3><p>ERP, CRM, gestion scolaire, gestion hospitalière, RH, commerce et solutions métiers conéus autour de vos processus.</p></a>
+        <a class="detail-card service-detail-card reveal" id="web" href="service-developpement-web.html"><span class="service-icon" data-icon="web"></span><h3>Développement web</h3><p>Sites vitrines, e-commerce, marketplaces, portails clients et plateformes SaaS rapides, clairs et sécurisés.</p></a>
+        <a class="detail-card service-detail-card reveal" id="mobile" href="service-developpement-mobile.html"><span class="service-icon" data-icon="mobile"></span><h3>Développement mobile</h3><p>Applications Android, iOS, hybrides et PWA avec une expérience fluide sur smartphone et tablette.</p></a>
+        <a class="detail-card service-detail-card reveal" id="ux-ui" href="service-ux-ui-design.html"><span class="service-icon" data-icon="design"></span><h3>UX/UI Design</h3><p>Parcours utilisateurs, wireframes, maquettes, prototypes et design system pour des interfaces simples à utiliser.</p></a>
+        <a class="detail-card service-detail-card reveal" id="integration-ia" href="service-integration-ia.html"><span class="service-icon" data-icon="ai"></span><h3>Intégration IA</h3><p>Ajout de fonctionnalités IA dans vos outils : OCR, recherche intelligente, analyse documentaire et assistants métiers.</p></a>
+        <a class="detail-card service-detail-card reveal" id="agents-ia" href="service-agents-ia.html"><span class="service-icon" data-icon="agent"></span><h3>Agents IA</h3><p>Agents intelligents capables d'exécuter des tâches, guider les utilisateurs et automatiser des workflows complexes.</p></a>
+        <a class="detail-card service-detail-card reveal" id="automatisation" href="service-automatisation.html"><span class="service-icon" data-icon="automation"></span><h3>Automatisation & maintenance</h3><p>Workflows, intégrations API, monitoring, déploiement, sécurité, CI/CD et support technique continu.</p></a>
+        <a class="detail-card service-detail-card reveal" id="branding" href="service-infographie-branding.html"><span class="service-icon" data-icon="branding"></span><h3>Branding & infographie</h3><p>Logo, charte graphique, supports marketing, réseaux sociaux, brochures et catalogues pour renforcer votre image.</p></a>
+      </div></div></section>
+      <div class="solution-modal" id="serviceDetailModal" aria-hidden="true">
+        <div class="solution-modal__overlay" data-service-detail-close></div>
+        <section class="solution-modal__panel" role="dialog" aria-modal="true" aria-labelledby="serviceDetailModalTitle">
+          <button class="solution-modal__close" type="button" aria-label="Fermer" data-service-detail-close>&times;</button>
+          <span class="solution-modal__eyebrow">Service LoukaTech</span>
+          <h3 id="serviceDetailModalTitle">Service</h3>
+          <p id="serviceDetailModalDescription"></p>
+          <h4>Détails du service</h4>
+          <ul id="serviceDetailModalBenefits"></ul>
+          <a class="btn btn-primary solution-modal__cta" id="serviceDetailModalLink" href="devis.html">Demander un devis</a>
+        </section>
+      </div>
+      <section class="ai-section" id="ia"><div class="container ai-grid"><div class="reveal"><p class="eyebrow dark">Pôle Intelligence Artificielle</p><h2>Agents IA, assistants et automatisations pour vos équipes.</h2><p>Nous intégrons chatbots, OCR, recherche intelligente, analyse documentaire, génération de contenu, RAG et agents métiers dans vos outils.</p><div class="ai-tags"><span>Assistant IA</span><span>Chatbot</span><span>OCR</span><span>RAG</span><span>Voice</span><span>Agents</span></div><div class="hero-actions"><a class="btn btn-light" href="pole-intelligence-artificielle.html">Explorer le pôle IA</a><a class="btn btn-ghost" href="devis.html">Demander un audit</a></div></div><div class="ai-panel reveal"><div class="ai-node main">IA</div><div class="ai-node">OCR</div><div class="ai-node">Chatbot</div><div class="ai-node">Agent</div><div class="ai-node">Data</div></div></div></section>
+      <section class="cta-section"><div class="container cta-box reveal"><div><h2>Besoin d'un service précis ou d'un projet complet ?</h2><p>Expliquez votre contexte, nous vous aidons à choisir la bonne approche.</p></div><a class="btn btn-light" href="devis.html">Demander un devis</a></div></section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html#top" class="brand footer-brand">
+            <span class="brand-mark" aria-hidden="true">LT</span>
+            <span>
+              <strong>LoukaTech</strong>
+              <small>Innover. Développer. Transformer.</small>
+            </span>
+          </a>
+          <p>Nous concevons des solutions numériques innovantes pour accélérer la croissance des entreprises.</p>
+          <div class="socials" aria-label="Réseaux sociaux">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Twitter">x</a>
+            <a href="#" aria-label="Instagram">ig</a>
+          </div>
+        </div>
+        <div>
+          <h3>Liens rapides</h3>
+          <a href="index.html">Accueil</a>
+          <a href="about.html">Entreprise</a>
+          <a href="services.html">Services</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="realisations.html">Réalisations</a>
+        </div>
+        <div>
+          <h3>Nos services</h3>
+          <a href="service-developpement-logiciel.html">Développement logiciel</a>
+          <a href="service-developpement-mobile.html">Applications mobiles</a>
+          <a href="service-integration-ia.html">Intégration IA</a>
+          <a href="service-agents-ia.html">Agents IA</a>
+          <a href="service-automatisation.html">Maintenance</a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>+243 900 000 000</p>
+          <p>contact@loukatech.com</p>
+          <p>Kinshasa, République démocratique du Congo</p>
+          <form class="newsletter" aria-label="Newsletter">
+            <input type="email" placeholder="Votre email" aria-label="Votre email" />
+            <button type="submit">S'abonner</button>
+          </form>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>&copy; 2026 LoukaTech. Tous droits réservés.</span>
+        <span>Mentions légales &middot; Politique de confidentialité &middot; CGV</span>
+      </div>
+    </footer>
+  </body>
+</html>

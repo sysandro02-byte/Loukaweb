@@ -1,0 +1,263 @@
+.page-services .breadcrumb {
+  display: none;
+}
+
+.page-services .page-hero {
+  padding-bottom: 54px;
+}
+
+.page-services .page-hero h1 {
+  max-width: 760px;
+}
+
+.page-services .content-grid {
+  align-items: stretch;
+}
+
+.page-services .service-detail-card {
+  display: grid;
+  align-content: start;
+}
+
+.page-services .ai-panel {
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .page-services .page-hero {
+    padding: 104px 0 42px;
+  }
+
+  .page-services .page-hero-grid {
+    gap: 24px;
+  }
+
+  .page-services .page-hero h1 {
+    font-size: clamp(31px, 7vw, 44px);
+    line-height: 1.08;
+  }
+
+  .page-services .page-hero p {
+    max-width: 620px;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .page-services .hero-mini-card {
+    padding: 16px;
+    border-radius: 22px;
+  }
+
+  .page-services .hero-mini-card img {
+    height: 220px;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 720px) {
+  .page-services .section {
+    padding: 42px 0;
+  }
+
+  .page-services .section-title {
+    margin-bottom: 22px;
+  }
+
+  .page-services .section-title h2 {
+    font-size: 29px;
+  }
+
+  .page-services .section-title p {
+    max-width: 420px;
+    margin-inline: auto;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .page-services .content-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .page-services .detail-card {
+    min-height: 168px;
+    padding: 16px 13px;
+    border-radius: 17px;
+  }
+
+  .page-services .detail-card .service-icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+  }
+
+  .page-services .detail-card h3 {
+    margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .page-services .detail-card p {
+    font-size: 11px;
+    line-height: 1.45;
+  }
+
+  .page-services .ai-section {
+    padding: 42px 0;
+  }
+
+  .page-services .ai-section h2 {
+    font-size: 28px;
+    line-height: 1.12;
+  }
+
+  .page-services .ai-section p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .page-services .ai-tags {
+    gap: 8px;
+    margin-top: 18px;
+  }
+
+  .page-services .ai-tags span {
+    padding: 8px 11px;
+    font-size: 12px;
+  }
+
+  .page-services .ai-section .hero-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    gap: 10px;
+    margin-top: 18px;
+  }
+
+  .page-services .ai-section .hero-actions .btn {
+    width: 100%;
+    min-height: 44px;
+    padding-inline: 8px;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .page-services .ai-panel {
+    min-height: 250px;
+    border-radius: 22px;
+  }
+
+  .page-services .ai-node {
+    width: 78px;
+    height: 78px;
+    border-radius: 22px;
+    font-size: 13px;
+  }
+
+  .page-services .ai-node.main {
+    width: 104px;
+    height: 104px;
+    font-size: 28px;
+  }
+
+  .page-services .ai-node:nth-child(2) {
+    left: 28px;
+    top: 28px;
+  }
+
+  .page-services .ai-node:nth-child(3) {
+    right: 28px;
+    top: 28px;
+  }
+
+  .page-services .ai-node:nth-child(4) {
+    left: 38px;
+    bottom: 28px;
+  }
+
+  .page-services .ai-node:nth-child(5) {
+    right: 42px;
+    bottom: 28px;
+  }
+
+  .page-services .cta-section {
+    padding: 22px 0 46px;
+  }
+
+  .page-services .cta-box {
+    display: grid;
+    gap: 18px;
+    padding: 26px 22px;
+    border-radius: 22px;
+    text-align: left;
+  }
+
+  .page-services .cta-box h2 {
+    font-size: 25px;
+    line-height: 1.14;
+  }
+
+  .page-services .cta-box p {
+    font-size: 14px;
+  }
+
+  .page-services .cta-box .btn {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .page-services .solution-modal__panel {
+    width: min(100%, 460px);
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .page-services .page-hero h1 {
+    font-size: 27px;
+  }
+
+  .page-services .page-hero p {
+    font-size: 14px;
+  }
+
+  .page-services .hero-mini-card img {
+    height: 180px;
+  }
+
+  .page-services .content-grid {
+    gap: 10px;
+  }
+
+  .page-services .detail-card {
+    min-height: 156px;
+    padding: 14px 10px;
+  }
+
+  .page-services .detail-card h3 {
+    font-size: 13px;
+  }
+
+  .page-services .detail-card p {
+    font-size: 10px;
+  }
+
+  .page-services .ai-panel {
+    min-height: 220px;
+  }
+
+  .page-services .ai-node {
+    width: 68px;
+    height: 68px;
+    border-radius: 19px;
+  }
+
+  .page-services .ai-node.main {
+    width: 88px;
+    height: 88px;
+    font-size: 25px;
+  }
+}
